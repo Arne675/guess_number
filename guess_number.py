@@ -7,5 +7,5 @@ while True:
         break;
     elif user_num > random_num:
         print('Ваше число больше того, что загадано')
-    else:
+    elif user_num < random_num:
         print('Ваше число меньше того, что загадано')
